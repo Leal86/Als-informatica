@@ -1,0 +1,65 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech&display=swap');
+
+:root {
+    --fonte1: 'Share Tech', sans-serif;
+
+    --cor0: #BFBFBF;
+    --cor1: #524973;
+    --cor2: #140A59;
+    --cor3: #21118C;
+    --cor4: #0A04BF;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: var(--fonte1);
+}
+
+body{
+    background-color: var(--cor0);
+}
+
+img {
+    min-height: 1vw;
+    max-height: 15vh;
+    padding: 1vw;
+    border: 1px solid red;
+}
+
+header {
+    background-color: var(--cor3);
+    margin: auto;
+    border: 1px solid red;
+    
+   
+}
+
+.container {
+    display: flex;
+    align-items: baseline;
+    align-content: center;
+    align-self: center;
+}
+
+header > div.container > div.logo > img {
+ 
+}
+
+header > div.container > div.logo > img{
+
+} 
+
+header > div.container > div.logo > p {
+    color: white;
+    font-size: 1.5vw;
+    text-align: center;
+    border: 1px solid red;  
+}
+
+
+footer{
+    background-color: var(--cor1);
+}
